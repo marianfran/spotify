@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #191414;
+  min-height: 200vh;
+}
+
+.button {
+  border-radius: 20px;
+  background-color: #4CAF50;
+}
+
+/* Tablet */
+@media (max-width: 820px) {
+  .main {
+    background-color: #191414;
+  }
+}
+  
+/* Mobile */
+
+@media (max-width: 414px) {
+  .main {
+    background-color: #191414;
+  }
+}

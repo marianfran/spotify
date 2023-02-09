@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191414;
+    color: white;
+    min-height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.songlist {
+    background-color: #1DB954;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.songlist > div {
+    text-align: center;
+}
+
+.songnumber {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.trackname {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.artistname {
+    font-size: 18px;
+    font-style: italic;
+}

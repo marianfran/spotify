@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+/* Tablet */
+@media (max-width: 820) {
+  #background {
+    background-color: #191414;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 414px) {
+  #background {
+    background-color: #191414;
+  }
+}

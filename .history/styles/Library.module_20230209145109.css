@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191414;
+    color: white;
+    min-height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.animation {
+    width: 80%;
+}
+
+.songlist {
+    background-color: #1DB954;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.songlist > div {
+    text-align: center;
+}
+
+.songnumber {
+    font-size: 30px;
+    font-weight: bold;
+    color: #191414;
+}
+
+.trackname {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.artistname {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Tablet */
+@media (max-width: 820px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #191414;
+        color: white;
+        min-height: 100vh;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .songlist {
+        background-color: #1DB954;
+        border-radius: 30px;
+        width: 80%;
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .songnumber {
+        font-size: 30px;
+        font-weight: bold;
+        color: #191414;
+    }
+    
+    .trackname {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .artistname {
+        font-size: 22px;
+        font-style: italic;
+    }
+  }
+    
+  /* Mobile */
+  
+  @media (max-width: 414px) {
+    .main {
+      background-color: #191414;
+    }
+
+    .songlist {
+        background-color: #1DB954;
+        border-radius: 20px;
+        margin: 22px;
+    }
+
+    .songnumber {
+        font-size: 22px;
+        font-weight: bold;
+        color: #191414;
+    }
+    
+    .trackname {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .artistname {
+        font-size: 16px;
+        font-style: italic;
+    }
+  }

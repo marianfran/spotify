@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #191414;
+  min-height: 200vh;
+}
+
+.logo {
+  margin-bottom: 5px;
+}
+
+.subhead {
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* Tablet */
+@media (max-width: 820px) {
+  .main {
+    background-color: #191414;
+  }
+}
+  
+/* Mobile */
+
+@media (max-width: 414px) {
+  .main {
+    background-color: #191414;
+  }
+}
