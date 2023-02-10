@@ -1,6 +1,6 @@
 ## Data Used
 
-This app contains the dataset of the Top 50 Spotify Songs in 2019
+This app contains the dataset of the Top 20 Spotify Songs in 2019
 
 Source is from Kaggle: https://www.kaggle.com/datasets/leonardopena/top50spotify2019
 
